@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -708,7 +708,9 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
-
+.citation{
+    font-style: italic;
+}
 h3 {
     font-size: 15px;
     text-transform: uppercase;
