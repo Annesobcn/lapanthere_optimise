@@ -92,6 +92,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.webp");
+    filter: brightness(100);
     background-size: 280px 280px;
 }
 
@@ -755,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:#364577;
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,15 +774,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #364577;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #364577;
     color: #FFFFFF!important;
 }
 
