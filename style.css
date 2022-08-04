@@ -91,6 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
+    background: url("img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -132,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: "F3976C";
+    color: #FFFFFF;
 }
 
 .d-bloc .a-btn:hover,

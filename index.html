@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	
     
-	<script async src="./js/jquery-2.1.0.min.js"></script>
+	<script defer src="./js/jquery-2.1.0.js"></script>
 	<script async src="./js/bootstrap.min.js"></script>
 	<script async src="./js/blocs.min.js"></script>
 	<script async src="./js/jquery.touchSwipe.min.js" defer></script>
@@ -37,7 +37,7 @@
 		<nav class="navbar row">
 			<div class="navbar-header">
 				
-				<img class="navbar-brand"  src="img/agence-la-panthere-monochrome.webp" alt="logo agence la panthere web desin lyon" height="40" /></a>
+				<img class="navbar-brand"  src="img/agence-la-panthere-monochrome.webp" alt="logo agence la panthere web desin lyon" height="40" />
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -146,17 +146,22 @@
 <!-- bloc-3-what-i-do END -->
 
 <!-- bloc-4-portfolio -->
-<section class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc" id="bloc-4-portfolio">
+<section id="bloc-4-portfolio" class="bloc bgc-white bg-lines-h2-bg bg-repeat l-bloc">
 	<div class="container bloc-lg">
+		::before
 		<div class="row">
+			::before
 			<div class="col-sm-12 text-center">
 				<h2>Nous travaillons avec beaucoup de clients, voici nos réalisations.</h2>
 				
 			</div>
+			::after
 		</div>
 		<div class="row tight-width-whitespace portfolio-row">
 			<div class="col-sm-6">
-				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.webp" alt="lyon web design agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
+				<a href="#" data-lightbox="img/1.webp" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb">
+					<img class="img-responsive portfolio-thumb" src="img/1.webp" alt="lyon web design agence web meilleure agence et refonte site web journal">
+				</a>
 				<h3 class="mg-md text-center">
 					Refonte d'un site web pour un journal local
 				</h3>
@@ -248,12 +253,11 @@
 			</div>
 		</div>
 	</div>
-</footer>
+
 <!-- Footer - bloc-8 END -->
 
-</main>
+</footer>
 <!-- Principal conteneur END -->
-    
 
 </body>
 </html>
