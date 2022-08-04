@@ -55,7 +55,10 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
-
+.bloc-button {
+    width: 138.217px;
+    height: 46px;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -692,7 +695,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #364577!important;
+    color: rgb(19,42,89,1)!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -787,7 +790,7 @@ h4 {
     font-weight: bold;
 }
 .btn-atomic-tangerine {
-    background: #F3976C!important;
+    background: rgb(243,166,125);
     color: #313131;
 }
 
