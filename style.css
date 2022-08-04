@@ -780,8 +780,12 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
+    font-weight: bold;
 }
-
+.tc-dark-slate-blue {
+    color: #364577!important;
+    font-weight: bold;
+}
 .btn-atomic-tangerine {
     background: #F3976C!important;
     color: #313131;
